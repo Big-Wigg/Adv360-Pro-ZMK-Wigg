@@ -15,7 +15,42 @@
             label = "macro_version";
             #binding-cells = <0>;
             bindings = <&kp RET>;
-        };        
+        };  
+
+AC_FRO: AC_FRO {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(F) &kp LS(R) &kp LS(O) &kp RET>;
+            label = "AC_FRO";
+        };
+
+        AC_M2P: AC_M2P {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(M) &kp N2 &kp LS(P) &kp RET>;
+            label = "AC_M2P";
+        };
+
+        AC_END: AC_END {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(E) &kp LS(N) &kp LS(D) &kp RET>;
+            label = "AC_END";
+        };
+
+        AC_MID: AC_MID {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(M) &kp LS(I) &kp LS(D) &kp RET>;
+            label = "AC_MID";
+        };
+
+        D_01_16: D_01_16 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp DOT &kp N0 &kp N6 &kp N2 &kp N5>;
+            label = "D_01_16";
+        };
 
         #endif
 
