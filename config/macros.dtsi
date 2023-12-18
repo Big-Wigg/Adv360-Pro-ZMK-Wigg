@@ -39,32 +39,130 @@ AC_FRO: AC_FRO {
             #binding-cells = <0>;
             bindings = <&kp LS(F) &kp LS(R) &kp LS(O) &kp RET>;
             label = "AC_FRO";
-        };
+};
 
-        AC_M2P: AC_M2P {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(M) &kp N2 &kp LS(P) &kp RET>;
-            label = "AC_M2P";
-        };
+AC_M2P: AC_M2P {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp LS(M) &kp N2 &kp LS(P) &kp RET>;
+    label = "AC_M2P";
+};
 
-        AC_END: AC_END {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(E) &kp LS(N) &kp LS(D) &kp RET>;
-            label = "AC_END";
-        };
+AC_END: AC_END {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp LS(E) &kp LS(N) &kp LS(D) &kp RET>;
+    label = "AC_END";
+};
 
-        AC_MID: AC_MID {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(M) &kp LS(I) &kp LS(D) &kp RET>;
-            label = "AC_MID";
-        };
+AC_MID: AC_MID {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp LS(M) &kp LS(I) &kp LS(D) &kp RET>;
+    label = "AC_MID";
+};
 
-        D_01_16: D_01_16 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp DOT &kp N0 &kp N6 &kp N2 &kp N5>;
-            label = "D_01_16";
-        };
+D_01_16: D_01_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N0 &kp N6 &kp N2 &kp N5>;
+    label = "D_01_16";
+};
+
+D_02_16: D_02_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N1 &kp N2 &kp N5>;
+    label = "D_02_16";
+};
+
+D_03_16: D_03_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N1 &kp N8 &kp N7 &kp N5>;
+    label = "D_03_16";
+};
+
+D_04_16: D_04_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N2 &kp N5>;
+    label = "D_04_16";
+};
+
+D_05_16: D_05_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N3 &kp N1 &kp N2 &kp N5>;
+    label = "D_05_16";
+};
+
+D_06_16: D_06_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N3 &kp N7 &kp N5>;
+    label = "D_06_16";
+};
+
+D_07_16: D_07_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N4 &kp N3 &kp N7 &kp N5>;
+    label = "D_07_16";
+};
+
+D_08_16: D_08_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N5>;
+    label = "D_08_16";
+};
+
+D_09_16: D_09_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N5 &kp N6 &kp N2 &kp N5>;
+    label = "D_09_16";
+};
+
+D_10_16: D_10_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N6 &kp N2 &kp N5>;
+    label = "D_10_16";
+};
+
+D_11_16: D_11_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N6 &kp N8 &kp N7 &kp N5>;
+    label = "D_11_16";
+};
+
+D_12_16: D_12_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N7 &kp N5>;
+    label = "D_12_16";
+};
+
+D_13_16: D_13_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N8 &kp N1 &kp N2 &kp N5>;
+    label = "D_13_16";
+};
+
+D_14_16: D_14_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N8 &kp N7 &kp N5>;
+    label = "D_14_16";
+};
+
+D_15_16: D_15_16 {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    bindings = <&kp DOT &kp N9 &kp N3 &kp N7 &kp N5>;
+    label = "D_15_16";
+}; 
