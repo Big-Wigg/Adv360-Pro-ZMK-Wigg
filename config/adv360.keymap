@@ -231,7 +231,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "BW_CP";
             #binding-cells = <0>;
-            bindings = <&TH LC(A) LC(C)>, <&TH LC(X) LC(P)>;
+            bindings = <&TH LC(A) LC(C)>, <&TH LC(X) LC(V)>;
         };
 
         BW_SHIFT: BW_SHIFT {
@@ -254,13 +254,13 @@
 &kp TAB       &kp Q  &kp W  &kp E   &kp R      &kp T              &none                                                      &none      &kp Y  &kp U  &kp I      &kp O      &kp P      &kp BSLH
 &to 1         &kp A  &kp S  &kp D   &kp F      &kp G              &none      &kp LC(DEL)  &kp DEL      &kp LGUI   &none      &none      &kp H  &kp J  &kp K      &kp L      &kp SEMI   &kp SQT
 &kp LALT      &kp Z  &kp X  &kp C   &kp V      &kp B                                      &U_HM        &BW_RIGHT                        &kp N  &kp M  &kp COMMA  &kp DOT    &kp FSLH   &none
-&none         &none  &none  &mo 3   &kp LCTRL                     &BW_SHIFT  &kp RET      &D_END       &BW_LEFT   &kp ENTER  &BW_SHIFT         &none  &none      &kp LBKT   &kp RBKT   &none
+&none         &none  &none  &sl 3   &kp LCTRL                     &BW_SHIFT  &kp RET      &D_END       &BW_LEFT   &kp ENTER  &BW_SHIFT         &none  &none      &kp LBKT   &kp RBKT   &none
             >;
         };
 
         keypad {
             bindings = <
-&trans   &none          &none   &none   &none   &trans          &trans                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans   &none          &none   &trans  &trans  &trans          &trans                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp TAB  &TH DQT AT     &kp N7  &kp N8  &kp N9  &TH STAR FSLH   &trans                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &to 0    &TH DOT COMMA  &kp N4  &kp N5  &kp N6  &TH PLUS MINUS  &trans  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &none    &TH RPAR LPAR  &kp N3  &kp N2  &kp N1  &kp RET                          &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
