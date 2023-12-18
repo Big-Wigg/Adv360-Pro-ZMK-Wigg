@@ -44,6 +44,20 @@
             label = "AC_MID";
         };
 
+        AC_X: AC_X {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(DOT) &kp X &kp RET>;
+            label = "AC_X";
+        };
+
+        AC_Y: AC_Y {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(DOT) &kp Y &kp RET>;
+            label = "AC_Y";
+        };
+
         D_01_16: D_01_16 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -147,20 +161,6 @@
             #binding-cells = <0>;
             bindings = <&kp DOT &kp N9 &kp N3 &kp N7 &kp N5>;
             label = "D_15_16";
-        };
-
-        AC_X: AC_X {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(DOT) &kp X &kp RET>;
-            label = "AC_X";
-        };
-
-        AC_Y: AC_Y {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(DOT) &kp Y &kp RET>;
-            label = "AC_Y";
         };
 
         ENT_TO: ENT_TO {
