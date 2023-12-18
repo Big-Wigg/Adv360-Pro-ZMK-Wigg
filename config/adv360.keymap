@@ -250,7 +250,7 @@
 
         default_layer {
             bindings = <
-&TH U ESCAPE  &none  &none  &BW_CP  &none      &kp LC(BACKSPACE)  &none                                                      &none      &none  &none  &none      &kp MINUS  &kp EQUAL  &kp BACKSPACE
+&TH U ESCAPE  &none  &none  &BW_CP  &none      &TH LC(BSPC) BSPC  &none                                                      &none      &none  &none  &none      &kp MINUS  &kp EQUAL  &TH LC(BSPC) BSPC
 &kp TAB       &kp Q  &kp W  &kp E   &kp R      &kp T              &none                                                      &none      &kp Y  &kp U  &kp I      &kp O      &kp P      &kp BSLH
 &to 1         &kp A  &kp S  &kp D   &kp F      &kp G              &none      &kp LC(DEL)  &kp DEL      &kp LGUI   &none      &none      &kp H  &kp J  &kp K      &kp L      &kp SEMI   &kp SQT
 &kp LALT      &kp Z  &kp X  &kp C   &kp V      &kp B                                      &U_HM        &BW_RIGHT                        &kp N  &kp M  &kp COMMA  &kp DOT    &kp FSLH   &none
@@ -263,7 +263,7 @@
 &trans   &none          &none   &trans  &trans  &trans          &trans                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &kp TAB  &TH DQT AT     &kp N7  &kp N8  &kp N9  &TH STAR FSLH   &trans                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &to 0    &TH DOT COMMA  &kp N4  &kp N5  &kp N6  &TH PLUS MINUS  &trans  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&none    &TH RPAR LPAR  &kp N3  &kp N2  &kp N1  &kp RET                          &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&none    &TH RPAR LPAR  &kp N1  &kp N2  &kp N3  &kp RET                          &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &mo 2    &none          &none   &kp N0  &sl 4                   &trans  &ENT_TO  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
