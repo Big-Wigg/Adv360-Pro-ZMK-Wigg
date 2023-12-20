@@ -40,7 +40,7 @@
               #binding-cells = <0>;
               bindings = <&kp LS(F) &kp LS(R) &kp LS(O) &kp RET>;
               label = "AC_FRO";
-              wait-ms = <25>;
+              wait-ms = <100>;
   };
   
   AC_M2P: AC_M2P {
@@ -48,7 +48,7 @@
       #binding-cells = <0>;
       bindings = <&kp LS(M) &kp N2 &kp LS(P) &kp RET>;
       label = "AC_M2P";
-      wait-ms = <25>;
+      wait-ms = <100>;
   };
   
   AC_END: AC_END {
@@ -56,7 +56,7 @@
       #binding-cells = <0>;
       bindings = <&kp LS(E) &kp LS(N) &kp LS(D) &kp RET>;
       label = "AC_END";
-      wait-ms = <25>;
+      wait-ms = <100>;
   };
   
   AC_MID: AC_MID {
@@ -64,7 +64,7 @@
       #binding-cells = <0>;
       bindings = <&kp LS(M) &kp LS(I) &kp LS(D) &kp RET>;
       label = "AC_MID";
-      wait-ms = <25>;
+      wait-ms = <100>;
   };
 
   AC_X: AC_X {
@@ -72,7 +72,7 @@
       #binding-cells = <0>;
       bindings = <&kp DOT &kp X &kp RET>;
       label = "AC_X";
-      wait-ms = <25>;
+      wait-ms = <100>;
   };
 
   AC_Y: AC_Y {
@@ -80,7 +80,7 @@
       #binding-cells = <0>;
       bindings = <&kp DOT &kp Y &kp RET>;
       label = "AC_Y";
-      wait-ms = <25>;
+      wait-ms = <100>;
   };
   
   D_01_16: D_01_16 {
