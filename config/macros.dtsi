@@ -36,52 +36,58 @@
   };
 
   AC_FRO: AC_FRO {
-              compatible = "zmk,behavior-macro";
-              #binding-cells = <0>;
-              bindings = <&kp LS(F) &kp LS(R) &kp LS(O) &kp RET>;
-              label = "AC_FRO";
-              wait-ms = <200>;
-  };
-  
-  AC_M2P: AC_M2P {
-      compatible = "zmk,behavior-macro";
-      #binding-cells = <0>;
-      bindings = <&kp LS(M) &kp N2 &kp LS(P) &kp RET>;
-      label = "AC_M2P";
-      wait-ms = <200>;
-  };
-  
-  AC_END: AC_END {
-      compatible = "zmk,behavior-macro";
-      #binding-cells = <0>;
-      bindings = <&kp LS(E) &kp LS(N) &kp LS(D) &kp RET>;
-      label = "AC_END";
-      wait-ms = <200>;
-  };
-  
-  AC_MID: AC_MID {
-      compatible = "zmk,behavior-macro";
-      #binding-cells = <0>;
-      bindings = <&kp LS(M) &kp LS(I) &kp LS(D) &kp RET>;
-      label = "AC_MID";
-      wait-ms = <200>;
-  };
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    wait-ms = <40>;
+    tap-ms = <40>;
+    bindings = <&kp LS(F) &kp LS(R) &kp LS(O) &kp RET>;
+    label = "AC_FRO";
+};
 
-  AC_X: AC_X {
-      compatible = "zmk,behavior-macro";
-      #binding-cells = <0>;
-      bindings = <&kp DOT &kp X &kp RET>;
-      label = "AC_X";
-      wait-ms = <200>;
-  };
+AC_M2P: AC_M2P {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    wait-ms = <40>;
+    tap-ms = <40>;
+    bindings = <&kp LS(M) &kp N2 &kp LS(P) &kp RET>;
+    label = "AC_M2P";
+};
 
-  AC_Y: AC_Y {
-      compatible = "zmk,behavior-macro";
-      #binding-cells = <0>;
-      bindings = <&kp DOT &kp Y &kp RET>;
-      label = "AC_Y";
-      wait-ms = <200>;
-  };
+AC_END: AC_END {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    wait-ms = <40>;
+    tap-ms = <40>;
+    bindings = <&kp LS(E) &kp LS(N) &kp LS(D) &kp RET>;
+    label = "AC_END";
+};
+
+AC_MID: AC_MID {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    wait-ms = <40>;
+    tap-ms = <40>;
+    bindings = <&kp LS(M) &kp LS(I) &kp LS(D) &kp RET>;
+    label = "AC_MID";
+};
+
+AC_X: AC_X {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    wait-ms = <40>;
+    tap-ms = <40>;
+    bindings = <&kp DOT &kp X &kp RET>;
+    label = "AC_X";
+};
+
+AC_Y: AC_Y {
+    compatible = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    wait-ms = <40>;
+    tap-ms = <40>;
+    bindings = <&kp DOT &kp Y &kp RET>;
+    label = "AC_Y";
+};
   
   D_01_16: D_01_16 {
       compatible = "zmk,behavior-macro";
