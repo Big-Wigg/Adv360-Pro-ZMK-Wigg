@@ -12,44 +12,34 @@
         AC_FRO: AC_FRO {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <400>;
-            tap-ms = <40>;
-            bindings = <&kp LS(F) &kp LS(R) &kp LS(O) &kp RET>;
+            bindings = <&kp F &kp R &kp O &kp RET>;
             label = "AC_FRO";
         };
 
         AC_M2P: AC_M2P {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <400>;
-            tap-ms = <40>;
-            bindings = <&kp LS(M) &kp N2 &kp LS(P) &kp RET>;
+            bindings = <&kp M &kp N2 &kp P &kp RET>;
             label = "AC_M2P";
         };
 
         AC_END: AC_END {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <400>;
-            tap-ms = <40>;
-            bindings = <&kp LS(E) &kp LS(N) &kp LS(D) &kp RET>;
+            bindings = <&kp E &kp N &kp D &kp RET>;
             label = "AC_END";
         };
 
         AC_MID: AC_MID {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <400>;
-            tap-ms = <40>;
-            bindings = <&kp LS(M) &kp LS(I) &kp LS(D) &kp RET>;
+            bindings = <&kp M &kp I &kp D &kp RET>;
             label = "AC_MID";
         };
 
         AC_X: AC_X {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <400>;
-            tap-ms = <40>;
             bindings = <&kp DOT &kp X &kp RET>;
             label = "AC_X";
         };
@@ -57,8 +47,6 @@
         AC_Y: AC_Y {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            wait-ms = <400>;
-            tap-ms = <40>;
             bindings = <&kp DOT &kp Y &kp RET>;
             label = "AC_Y";
         };
