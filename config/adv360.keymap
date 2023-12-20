@@ -9,18 +9,12 @@
       #include "version.dtsi"
       #ifndef VERSION_MACRO
 
-        macro_ver: macro_ver {
-            compatible = "zmk,behavior-macro";
-            label = "macro_version";
-            #binding-cells = <0>;
-            bindings = <&kp RET>;
-        };
-
         AC_FRO: AC_FRO {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LS(F) &kp LS(R) &kp LS(O) &kp RET>;
             label = "AC_FRO";
+            wait-ms = <25>;
         };
 
         AC_M2P: AC_M2P {
@@ -28,6 +22,7 @@
             #binding-cells = <0>;
             bindings = <&kp LS(M) &kp N2 &kp LS(P) &kp RET>;
             label = "AC_M2P";
+            wait-ms = <25>;
         };
 
         AC_END: AC_END {
@@ -35,6 +30,7 @@
             #binding-cells = <0>;
             bindings = <&kp LS(E) &kp LS(N) &kp LS(D) &kp RET>;
             label = "AC_END";
+            wait-ms = <25>;
         };
 
         AC_MID: AC_MID {
@@ -42,20 +38,23 @@
             #binding-cells = <0>;
             bindings = <&kp LS(M) &kp LS(I) &kp LS(D) &kp RET>;
             label = "AC_MID";
+            wait-ms = <25>;
         };
 
         AC_X: AC_X {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(DOT) &kp X &kp RET>;
+            bindings = <&kp DOT &kp X &kp RET>;
             label = "AC_X";
+            wait-ms = <25>;
         };
 
         AC_Y: AC_Y {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(DOT) &kp Y &kp RET>;
+            bindings = <&kp DOT &kp Y &kp RET>;
             label = "AC_Y";
+            wait-ms = <25>;
         };
 
         D_01_16: D_01_16 {
