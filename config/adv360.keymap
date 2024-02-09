@@ -233,6 +233,15 @@
             #binding-cells = <0>;
             bindings = <&TH LSHIFT SPACE>, <&kp CAPS>, <&caps_word>;
         };
+
+        BW_Tab_LH: BW_Tab_LH {
+            compatible = "zmk,behavior-hold-tap";
+            label = "BW_TAB_LH";
+            bindings = <&to>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
     };
 
     macros {
@@ -243,11 +252,11 @@
 
         default_layer {
             bindings = <
-&TH U ESCAPE  &none  &none  &BW_CP  &none      &TH LC(BSPC) BSPC  &none                                                      &none      &none  &none  &none      &kp MINUS  &kp EQUAL  &TH LC(BSPC) BSPC
-&kp TAB       &kp Q  &kp W  &kp E   &kp R      &kp T              &none                                                      &none      &kp Y  &kp U  &kp I      &kp O      &kp P      &kp BSLH
-&to 1         &kp A  &kp S  &kp D   &kp F      &kp G              &none      &kp LC(DEL)  &kp DEL      &kp LGUI   &none      &none      &kp H  &kp J  &kp K      &kp L      &kp SEMI   &kp SQT
-&kp LALT      &kp Z  &kp X  &kp C   &kp V      &kp B                                      &U_HM        &BW_RIGHT                        &kp N  &kp M  &kp COMMA  &kp DOT    &kp FSLH   &none
-&none         &none  &none  &sl 3   &kp LCTRL                     &BW_SHIFT  &kp RET      &D_END       &BW_LEFT   &kp ENTER  &BW_SHIFT         &none  &none      &kp LBKT   &kp RBKT   &none
+&TH U ESCAPE      &none  &none  &BW_CP  &none      &TH LC(BSPC) BSPC  &none                                                      &none      &none  &none  &none      &kp MINUS  &kp EQUAL  &TH LC(BSPC) BSPC
+&BW_Tab_LH 5 TAB  &kp Q  &kp W  &kp E   &kp R      &kp T              &none                                                      &none      &kp Y  &kp U  &kp I      &kp O      &kp P      &kp BSLH
+&to 1             &kp A  &kp S  &kp D   &kp F      &kp G              &none      &kp LC(DEL)  &kp DEL      &kp LGUI   &none      &none      &kp H  &kp J  &kp K      &kp L      &kp SEMI   &kp SQT
+&kp LALT          &kp Z  &kp X  &kp C   &kp V      &kp B                                      &U_HM        &BW_RIGHT                        &kp N  &kp M  &kp COMMA  &kp DOT    &kp FSLH   &none
+&none             &none  &none  &sl 3   &kp LCTRL                     &BW_SHIFT  &kp RET      &D_END       &BW_LEFT   &kp ENTER  &BW_SHIFT         &none  &none      &kp LBKT   &kp RBKT   &none
             >;
         };
 
