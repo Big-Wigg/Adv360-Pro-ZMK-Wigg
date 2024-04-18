@@ -262,11 +262,11 @@
 
         keypad {
             bindings = <
-&trans   &none          &none   &trans  &trans  &trans          &trans                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&kp TAB  &TH DQT AT     &kp N7  &kp N8  &kp N9  &TH STAR FSLH   &trans                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&to 0    &TH DOT COMMA  &kp N4  &kp N5  &kp N6  &TH PLUS MINUS  &trans  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&none    &TH RPAR LPAR  &kp N1  &kp N2  &kp N3  &kp RET                          &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&mo 2    &none          &none   &kp N0  &sl 4                   &trans  &ENT_TO  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans        &none          &none   &trans  &trans  &trans          &trans                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp TAB       &TH DQT AT     &kp N7  &kp N8  &kp N9  &TH STAR FSLH   &trans                                       &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&to 0         &TH DOT COMMA  &kp N4  &kp N5  &kp N6  &TH PLUS MINUS  &trans  &trans   &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_ALT  &TH RPAR LPAR  &kp N1  &kp N2  &kp N3  &kp RET                          &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&mo 2         &none          &none   &kp N0  &sl 4                   &trans  &ENT_TO  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
 
